@@ -9,3 +9,5 @@ export default function linear_search(haystack: number[], needle: number): boole
     return false
 
 }
+
+// complexity O(n)
