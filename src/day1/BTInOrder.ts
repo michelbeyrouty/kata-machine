@@ -18,7 +18,7 @@ function walk(current: BinaryNode<number> | null, path: number[]): number[] {
 }
 
 
-// Called DepthFirstSerach
+// Called DepthFirstSearch ->it preserves the sahpe of the traversel
 // O(N)
 
 
