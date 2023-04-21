@@ -6,14 +6,17 @@ export default function compare(a: BinaryNode<number> | null, b: BinaryNode<numb
 
 function recursiveCompare(a: BinaryNode<number> | null | undefined, b: BinaryNode<number> | null | undefined): boolean {
 
+    // structural check
     if (!a === null && b === null) {
         return true
     }
 
+    // structural check
     if (a === null || b === null) {
         return false
     }
 
+    // value check
     if (a?.value !== b?.value) {
         return false
     }
