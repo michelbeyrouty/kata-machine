@@ -90,3 +90,7 @@ export default class MinHeap {
         }
     }
 }
+
+
+// Insert -> logn
+// Delete -> logn
