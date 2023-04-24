@@ -10,7 +10,6 @@ function createNode<V>(value: V): Node<V> {
     }
 }
 
-
 export default class LRU<K, V> {
     private length: number;
 
